@@ -1,0 +1,60 @@
+@keyframes first {
+  0%,
+  33.3%,
+  100% {
+    transform: translateY(0);
+  }
+  66.6% {
+    transform: translateY(4px);
+  }
+}
+
+@keyframes second {
+  0%,
+  100% {
+    transform: translateY(4px);
+  }
+  33.3%,
+  66.6% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes third {
+  0%,
+  66.6%,
+  100% {
+    transform: translateY(0);
+  }
+  33.3% {
+    transform: translateY(4px);
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: space-between;
+  width: 46px;
+  height: 8px;
+}
+
+.loader-item {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  position: relative;
+  bottom: 0;
+}
+
+.loader-item:nth-of-type(2n) {
+  animation: second 1.05s linear infinite;
+}
+
+.loader-item:nth-of-type(2n + 1) {
+  animation: third 1.05s linear infinite;
+}
+
+.loader-item:first-of-type {
+    animation: first 1.05s linear infinite;
+}

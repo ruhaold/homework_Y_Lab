@@ -1,0 +1,38 @@
+.note-view {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-accent);
+  border-radius: 8px;
+  padding: 16px 24px;
+  gap: 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.note-view__head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.note-view__title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.note-view__datetime {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.note-view__text {
+  font-size: 16px;
+  line-height: 18px;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

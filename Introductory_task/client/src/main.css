@@ -1,0 +1,26 @@
+:root {
+  font-family: sans-serif;
+  --primary: #00a82d;
+  --primary-hover: #008f26;
+  --secondary: #737373;
+  --secondary-hover: #333;
+
+  --text-primary: #333;
+  --text-secondary: #afafaf;
+
+  --border: #e6e6e6;
+  --border-accent: #008f2680;
+
+  --background: #fff;
+  --error: #ff7070;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  color: var(--text-primary);
+}
