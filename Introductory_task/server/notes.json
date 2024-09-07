@@ -1,0 +1,16 @@
+{
+  "982bc6f8-08e9-42bf-ac7a-2bfa63643c4c": {
+    "id": "982bc6f8-08e9-42bf-ac7a-2bfa63643c4c",
+    "title": "Some large title",
+    "text": "Very very large text",
+    "userId": "4080a8c6-7f64-4a27-8dbd-85e6c7a15f28",
+    "createdAt": 1706119302723
+  },
+  "56a1da2e-7574-49a3-a38b-d1bb5a6d0ddd": {
+    "id": "56a1da2e-7574-49a3-a38b-d1bb5a6d0ddd",
+    "title": "Small title",
+    "text": "Тестовый пост\n",
+    "userId": "325e9312-bf81-445a-bae9-711e0794a37c",
+    "createdAt": 1711030696030
+  }
+}
